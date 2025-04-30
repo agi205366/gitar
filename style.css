@@ -21,7 +21,33 @@ h2{
 }
 
 .kep{
-    width: 70%;
+    width: 30%;
     height: auto;
     border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.gitar-lista{
+    list-style: none;
+}
+
+.gitar-lista li{
+    border: 1px solid darkgrey;
+    border-radius: 8px;
+    text-align: justify;
+    padding: 10px;
+    margin-bottom: 20px;
+    
+}
+
+.gitar-kep-jobbra{
+    float: left;
+    margin: 0 15px 10px 20px;
+    width: 200px;
+    height: auto;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 5px rgb(0, 0, 0, 0.1);
+}
+
+.clear{
+    clear: both;
 }
